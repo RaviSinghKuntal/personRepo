@@ -11,7 +11,6 @@ const person = (props) => {
     // otherState: 'Other state',
   );
 
-  console.log({ props, personState, setPersonState });
   return (
     <div className= 'person'>
       <h1> I'm {props.name} and {props.age} old</h1>

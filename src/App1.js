@@ -13,8 +13,6 @@ const appp = () => {
     // otherState: 'Other state',
   );
 
-  console.log({ personState, setPersonState });
-
   const changeName = (newName) => {
     setPersonState( 
       [
@@ -39,7 +37,7 @@ const appp = () => {
 
     return (
       <div className="App">
-       {/* <h1>Welcome to react App</h1>
+       <h1>Welcome to react App</h1>
        <Person 
        name= {personState[0].name} 
        age= {personState[0].age} 
@@ -52,7 +50,7 @@ const appp = () => {
        name= {personState[2].name} 
        age= {personState[2].age} />
 
-       <button onClick={() => changeName('GIRISH CAPITAL')}>Switch Name</button> */}
+       <button onClick={() => changeName('GIRISH CAPITAL')}>Switch Name</button>
        <MyComponent />
       </div>
     );
